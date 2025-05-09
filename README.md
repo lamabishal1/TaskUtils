@@ -12,6 +12,16 @@ Add, edit, and delete tasks easily
 タスクの追加、編集、削除が簡単に行えます。
 
 
+🌐 View Live / ライブデモ
+
+🔗 https://taskutils.netlify.app/
+
+
+📱 Fully responsive and works on desktop and mobile browsers.
+
+💻 完全にレスポンシブで、デスクトップおよびモバイルブラウザで動作します。
+
+
 Responsive design using Bootstrap
 
 Bootstrapを使用したレスポンシブデザイン。
