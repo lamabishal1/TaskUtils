@@ -1,5 +1,5 @@
 import { useState } from "react";
-import About from "./components/About";
+// import About from "./components/About";
 import Navbar from "./components/navbar";
 import TextForm from "./components/TextForm";
 
