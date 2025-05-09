@@ -1,70 +1,135 @@
-# Getting Started with Create React App
+TaskUtils
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A lightweight task management app built with React and Bootstrap.
 
-## Available Scripts
+ReactとBootstrapで構築された軽量なタスク管理アプリケーションです。
 
-In the project directory, you can run:
 
-### `npm start`
+📝 Features / 特徴
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Add, edit, and delete tasks easily
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+タスクの追加、編集、削除が簡単に行えます。
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Responsive design using Bootstrap
 
-### `npm run build`
+Bootstrapを使用したレスポンシブデザイン。
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Intuitive user interface
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+直感的なユーザーインターフェース。
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Built with Create React App
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Create React Appを使用して構築。
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+GitHub
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+GitHub
 
-## Learn More
+Stack Overflow
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🚀 Getting Started / はじめに
 
-### Code Splitting
+Prerequisites / 前提条件
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Node.js (v14 or later)
 
-### Analyzing the Bundle Size
+Node.js（バージョン14以上）
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+npm (v6 or later)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+npm（バージョン6以上）
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Installation / インストール
 
-### Deployment
+bash
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+コピーする
 
-### `npm run build` fails to minify
+編集する
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+git clone https://github.com/lamabishal1/TaskUtils.git
+
+cd TaskUtils
+
+npm install
+
+Running the App / アプリの起動
+
+bash
+
+コピーする
+
+編集する
+
+npm start
+
+This will start the development server at http://localhost:3000.
+
+開発サーバーが http://localhost:3000 で起動します。
+
+
+🛠️ Scripts / スクリプト
+
+npm start - Start the development server
+
+開発サーバーを起動します。
+
+
+npm test - Run tests in watch mode
+
+テストをウォッチモードで実行します。
+
+
+npm run build - Build the app for production
+
+本番環境用にアプリをビルドします。
+
+
+npm run eject - Eject the app (not reversible)
+
+アプリをイジェクトします（元に戻せません）。
+
+
+📁 Project Structure / プロジェクト構成
+
+pgsql
+
+コピーする
+
+編集する
+
+
+TaskUtils/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.js
+│   └── index.js
+├── package.json
+└── README.md
+
+
+📄 License / ライセンス
+
+This project is licensed under the MIT License.
+
+このプロジェクトはMITライセンスの下で提供されています。
+
+
+🙋‍♂️ Author / 作者
+
+GitHub: lamabishal1
+
+
+Feel free to contribute or report issues!
+
+お気軽に貢献や問題の報告をしてください！
+
