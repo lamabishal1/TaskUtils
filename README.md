@@ -141,5 +141,5 @@ GitHub: lamabishal1
 
 Feel free to contribute or report issues!
 
-お気軽に貢献や問題の報告をしてください！
+お気軽に貢献や問題の報告をしてください！!
 
