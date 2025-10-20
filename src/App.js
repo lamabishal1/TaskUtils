@@ -1,5 +1,6 @@
 import { useState } from "react";
-// import About from "./components/About";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import About from "./components/About";
 import Navbar from "./components/navbar";
 import TextForm from "./components/TextForm";
 
@@ -19,13 +20,20 @@ function App() {
   } 
 
   return (
+     <Router>
     <div className="App">
       <Navbar mode={mode} toggleMode={toggleMode}/>
       <div className="my-4">
-      <TextForm heading="Enter the text below to analyze." mode={mode}/>
-     {/* <About />*/}
+        <Routes>
+          <Route
+            path="/"
+      element={<TextForm heading="Enter the text below to analyze." mode={mode}/>}
+          />
+      <Route path="/about" element={<About mode={mode}/>} />
+        </Routes>
       </div>
     </div>
+    </Router>
   );
 }
 
